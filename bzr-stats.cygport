@@ -1,0 +1,11 @@
+inherit python-distutils
+
+NAME="bzr-stats"
+VERSION=0.1.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Bazaar statistics plugin"
+DESCRIPTION="Simple statistics plugin for Bazaar. At the moment it can display
+statistics about the committers that have contributed to a project."
+HOMEPAGE="http://bazaar.canonical.com/"
+SRC_URI="https://launchpad.net/bzr-stats/trunk/${VERSION}/+download/${NAME}-${VERSION}.tar.gz"
